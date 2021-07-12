@@ -168,12 +168,75 @@ span{
 .course-rating-clock{
     color: #FF4A60;
     font-size: 15px;
-
-    border-radius: 5px;
+     background-color: #ff4a5f7c;
+    border-radius: 21px;
+    padding: 5px;
 }
 .course-rating{
     display: flex;
     flex-direction: row;
     justify-content:space-between ;
 }
+
+/* Main style ends here */
+
+/* footer style starts here */
+.footer{
+    background-color: #562EFF;
+    border-radius: 5px;
+}
+.footer p{
+     text-align: center;
+     color: whitesmoke;
+     font-weight: 600;
+}
+
+
+
 /* course style ends  */
+
+/*-----------------
+   Media query
+-------------------*/
+
+/* For Mobile  */
+@media only screen and (max-width:688px) {
+    nav{
+        width: 100%;
+        
+    }
+    .container{
+        width: 100%;
+    }
+    .title{
+        text-align: center;
+    }
+    .players, .blogs{
+        grid-template-columns: 1fr 1fr;
+
+    }
+    .player, .blog{ 
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .courses{
+        grid-template-columns: 1fr;
+        grid-row-gap: 30px;
+    }
+    .course{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer{
+        background-color: #562EFF;
+        border-radius: 5px;
+    }
+    .footer p{
+         text-align: center;
+         color: whitesmoke;
+         font-weight: 600;
+    }
+}
