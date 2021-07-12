@@ -2,12 +2,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 /*-------------------------------- 
-   general and utilities style
+   common and utilities style
 ----------------------------------- */
 body{
     background-color:#F3F1FF;
     ;
     font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 870px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 33px 30px 42px 30px;
+   
+}
+.title{
+    
+    margin-top: 0px;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+hr{
+    border: 1px solid #D1D1D1
 }
 
 /* navigation style
@@ -41,4 +59,28 @@ span{
 }
 
 
-/* style for top player */
+/*------------------------------
+ top players and top blogs style
+----------------------------------- */
+.players{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 30px;
+}
+.player{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    margin-left: 16px;
+}
+
+/* players style end */
