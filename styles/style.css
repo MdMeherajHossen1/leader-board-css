@@ -1,0 +1,44 @@
+/* google fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/*-------------------------------- 
+   general and utilities style
+----------------------------------- */
+body{
+    background-color:#F3F1FF;
+    ;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navigation style
+----------------------- */
+nav{
+    height: 94px;
+    background-color: #562EFF;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+   
+}
+nav span a{
+    padding-right: 36px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+span{
+    display: flex;
+    align-items: center;
+}
+.logo a{
+    font-size: 24px;
+    margin-left: 16px;
+}
+.logo img{
+    height: 51px;
+    width: 42px;
+}
+
+
+/* style for top player */
